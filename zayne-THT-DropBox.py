@@ -7,7 +7,8 @@ from dropbox import DropboxOAuth2FlowNoRedirect
 
 APP_KEY = "osaf9oqdzzd6wbx"
 APP_SECRET = "dr8hy4doxwj4586"
-APP_REFRESH_TOKEN = 'hWab75X6Qm8AAAAAAAAAATYN67Kptbi76QOInZ8cRqM7xMllwsv9VpfmQ2S4ESAA'
+# APP_REFRESH_TOKEN = 'hWab75X6Qm8AAAAAAAAAATYN67Kptbi76QOInZ8cRqM7xMllwsv9VpfmQ2S4ESAA'
+APP_REFRESH_TOKEN = 'TN_RtZuRTz8AAAAAAAAAAYuNPb38WlYHitRH_2kDKX8pLczkiJAhDVHlK577X5t9'
 ACCESS_TOKEN=''
 
 
@@ -272,6 +273,8 @@ def main():
     """
 
     print_logo()
+
+    
     
     try:
         ACCESS_TOKEN = get_cached_access_token()
