@@ -138,7 +138,7 @@ or alternatively,
 python3 -m pip install dropbox
 ```
 
-Then to runt he script, simply run:
+Then to run the script, simply run:
 ```
 python3 zayne-THT-DropBox.py
 ```
